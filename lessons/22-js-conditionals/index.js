@@ -5,8 +5,9 @@ const secondNumber = prompt("Enter the second number");
 
 if (firstNumber > secondNumber) {
     alert("First number is greater");
-} elseif (firstNumber < secondNumber){
+} else if (firstNumber < secondNumber) {
     alert("First number is less than second number");
-} else {
+} 
+else {
     alert("First number is same as second number");
 }
