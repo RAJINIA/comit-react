@@ -1,14 +1,9 @@
 alert("Enter 2 numbers to see if the first is greater than the second");
 
-//let a = 100;
-//let b = 200;
-prompt("Enter first number :");
-//console.log("First number :");
-prompt("Enter second number :");
-//console.log("Second number :");
+let firstNumber = prompt("Enter first number :");
+console.log("First number :", firstNumber);
+let secondNumber = prompt("Enter second number :");
+console.log("Second number :", secondNumber);
 
-
-//let result = a > b;
-
-result = confirm("Is first number greater than second?", );
-console.log(result);
+result = confirm(firstNumber > secondNumber );
+console.log("Is first number greater than second ? ", result);
