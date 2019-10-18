@@ -10,4 +10,5 @@ prompt("Enter second number :");
 
 //let result = a > b;
 
-result = confirm("Is first number greater than second?");
+result = confirm("Is first number greater than second?", );
+console.log(result);
