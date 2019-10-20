@@ -44,8 +44,39 @@ for(let a = 100; a >= 0; a--){
 //DO LOOP
 console.log("Do loop to show numbers from 100 to 0");
 let c = 100;
-do(c >= 0){
+do{
     console.log("c = ", c);
     c-- ;
+} while(c >= 0);
+
+// WHILE LOOP
+let x = 100;
+while(x >= 0){
+    console.log("x = ",x);
+    x--; 
+}
+
+// EVEN NUMBERS BETWEEN 0 - 100
+// FOR LOOP
+for (let z = 0; z <=100; z++){
+    if(z % 2 == 0){
+        console.log(z);
+    }
+}
+
+// DO LOOP
+let d = 0;
+do{
+    if(d % 2 == 0){
+        console.log(d);
+    }
+}while (d <= 100);
+
+// WHILE LOOP
+let y = 0;
+while(y <= 100){
+    if(y % 2 == 0){
+        console.log(y);
+    }
 }
 
