@@ -1,4 +1,4 @@
-let sum = 0;
+/*let sum = 0;
 
 for(let a = 0; a < 1000; a++){
     sum = sum + a;
@@ -64,6 +64,7 @@ for (let z = 0; z <=100; z++){
     }
 }
 
+
 // DO LOOP
 let d = 0;
 do{
@@ -72,12 +73,22 @@ do{
     }
 }while (d <= 100);
 
+
+
 // WHILE LOOP
 let y = 0;
-while(y <= 100){
+while(y <= 10){
     if(y % 2 == 0){
         console.log(y);
+        y++;
     }
 }
+*/
 
 
+for (let a = 0; a <5; a++){
+    str = '';
+    for(let b = 0; b< 5-a; b++){
+        str = str + '*';
+    }
+}
