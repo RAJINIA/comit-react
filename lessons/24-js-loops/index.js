@@ -1,4 +1,4 @@
-/*let sum = 0;
+let sum = 0;
 
 for(let a = 0; a < 1000; a++){
     sum = sum + a;
@@ -17,7 +17,6 @@ for (let a = 0; a<= 10; a++){
 
 // DO LOOP
 console.log("Do loop to show numbers from 0 to 10");
-
 let a = 0;
 do{
     console.log("a = ", a);
@@ -26,7 +25,6 @@ do{
 
 //WHILE LOOP
 console.log("While loop to show numbers from 0 to 10");
-
 let b = 0;
 while(b <= 10){
     console.log("b = ", b);
@@ -50,6 +48,7 @@ do{
 } while(c >= 0);
 
 // WHILE LOOP
+console.log("While loop to show numbers from 100 to 0");
 let x = 100;
 while(x >= 0){
     console.log("x = ",x);
@@ -58,6 +57,7 @@ while(x >= 0){
 
 // EVEN NUMBERS BETWEEN 0 - 100
 // FOR LOOP
+console.log("For loop to show even numbers")
 for (let z = 0; z <=100; z++){
     if(z % 2 == 0){
         console.log(z);
@@ -66,29 +66,23 @@ for (let z = 0; z <=100; z++){
 
 
 // DO LOOP
+console.log("Do-while loop to show even numbers")
 let d = 0;
 do{
     if(d % 2 == 0){
         console.log(d);
     }
-}while (d <= 100);
+    d++;
+} while (d <= 100);
 
 
 
 // WHILE LOOP
+console.log("While loop to show even numbers");
 let y = 0;
-while(y <= 10){
+while(y <= 100){
     if(y % 2 == 0){
         console.log(y);
-        y++;
     }
-}
-*/
-
-
-for (let a = 0; a <5; a++){
-    str = '';
-    for(let b = 0; b< 5-a; b++){
-        str = str + '*';
-    }
+    y++;
 }
