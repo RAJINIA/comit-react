@@ -4,7 +4,7 @@ function evenNumbers(start, end){
         if (i % 2 == 0){
             console.log(i);
         }
-    }
+    }  
 }
 
 evenNumbers(0, 100);
@@ -26,3 +26,18 @@ function showUser(){
 
 }
 showUser();
+
+//EVEN NUMBER FUNCTION CALLED 5 TIMES
+let repeat = function(start, end) {
+    for (let i = start; i <= end; i++){
+        if (i % 2 == 0){
+            console.log(i);
+        }
+    }  
+}
+repeat(0,10);
+console.log("CALLING FUNCTION 5 TIMES");
+for (let count = 0; count < 5; count++){
+    repeat(0,10);
+}
+
