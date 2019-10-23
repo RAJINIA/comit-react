@@ -11,10 +11,18 @@ evenNumbers(0, 100);
 
 // SHOW USER FUNCTION
 function showUser(){
-    console.log("Name : Rajini");
-    console.log("Age : 30");
-    console.log("Phone Number : 762768732");
-    console.log("Street : Molland Lane");
-    console.log("Postal Code : s7m 1l2");
-    console.log("Are you married : ")
+    let Name = "Rajini";
+    console.log(Name);
+    const Age = 30;
+    console.log(Age);
+    const phoneNumber = 762768732;
+    console.log(phoneNumber);
+    const street = "Molland Lane";
+    console.log(street);
+    const postalCode = "s7m1l2";
+    console.log(postalCode);
+    let areYouMarried = true;
+    console.log(areYouMarried);
+
 }
+showUser();
