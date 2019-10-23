@@ -1,3 +1,4 @@
+/*
 // EVEN NUMBER FUNCTION
 function evenNumbers(start, end){
     for (let i = start; i <= end; i++){
@@ -40,4 +41,22 @@ console.log("CALLING FUNCTION 5 TIMES");
 for (let count = 0; count < 5; count++){
     repeat(0,10);
 }
+*/
 
+//FIBONACCI SERIES
+
+let fibonacci = function(startValue, endValue){
+    let a = 0;
+    console.log(a);
+    let b = 1;
+    console.log(b);
+    
+    for (let x = startValue; x < endValue; x++){
+        sum = a + b;
+        console.log(sum);
+        a = b;
+        b = sum;
+    }
+}
+
+fibonacci(0,1);
