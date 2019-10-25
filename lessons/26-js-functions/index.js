@@ -1,4 +1,4 @@
-/*
+
 // EVEN NUMBER FUNCTION
 function evenNumbers(start, end){
     for (let i = start; i <= end; i++){
@@ -51,7 +51,7 @@ let fibonacci = function(startValue1, startValue2, count){
     let b = startValue2;
     console.log(b);
     
-    for (let x = 0; x < (count-2); x++){
+    for (let x = 0; x < count; x++){
         sum = a + b;
         console.log(sum);
         a = b;
@@ -60,7 +60,7 @@ let fibonacci = function(startValue1, startValue2, count){
 }
 
 fibonacci(0, 1, 10);
-*/
+
 
 //SHOW NAME
 let showName = function(){
