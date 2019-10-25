@@ -41,17 +41,17 @@ console.log("CALLING FUNCTION 5 TIMES");
 for (let count = 0; count < 5; count++){
     repeat(0,10);
 }
-*/
+
 
 //FIBONACCI SERIES
 
-let fibonacci = function(startValue, endValue){
-    let a = 0;
+let fibonacci = function(startValue1, startValue2, count){
+    let a = startValue1;
     console.log(a);
-    let b = 1;
+    let b = startValue2;
     console.log(b);
     
-    for (let x = startValue; x < endValue; x++){
+    for (let x = 0; x < (count-2); x++){
         sum = a + b;
         console.log(sum);
         a = b;
@@ -59,4 +59,17 @@ let fibonacci = function(startValue, endValue){
     }
 }
 
-fibonacci(0,1);
+fibonacci(0, 1, 10);
+*/
+
+//SHOW NAME
+let showName = function(){
+    let name = "rajini"
+    console.log(`==============`);
+    console.log(`=   ${name}   =`);
+    console.log(`==============`);
+}
+
+showName();
+showName();
+
