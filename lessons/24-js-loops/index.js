@@ -1,3 +1,4 @@
+
 let sum = 0;
 
 for(let a = 0; a < 1000; a++){
@@ -85,4 +86,17 @@ while(y <= 100){
         console.log(y);
     }
     y++;
+}
+
+
+
+// * TREE
+
+for (let i = 0; i <= 13 ; i++){
+    let result = "";
+    for (let j = 0; j <= i; j++){
+        let input = '*';
+        result = input + result;
+    } 
+    console.log(result);
 }
