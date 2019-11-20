@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Create User</title>
+    </head>
+    <body>
+        <main>
+            <h1>Create user</h1><hr>
+            <form action="create-user.html" method="get">
+                <label for="email">Email : </label>
+                <input type="text" name="email" placeholder="email" required><br><br>
+
+                <label for="username">User name : </label>
+                <input type="text" name="username" placeholder="username" size="30" maxlength="12"><br><br>
+
+                <label for="password">Password : </label>
+                <input type="text" name="password" maxlength="8" placeholder="password" required><br><br>
+
+                <label for="bio"> Bio:</label><br>
+                <textarea name="bio" placeholder="Give a brief description of this user"></textarea><br><br>
+
+                <fieldset>
+                    <legend>Interests</legend>
+                    <label for="select tour superheros"> Select your superhero</label>
+                    <input type="radio" name="select your superheros" value="superman">superman
+                    <input type="radio" name="select your superhero" value="batman">batman
+                    <input type="radio" name="select your superhero" value="wonder woman" checked>wonder woman
+                    <input type="radio" name="select your superhero" value="flash">flash
+                    <input type="radio" name="select your superhero" value="thor">thor
+                    <input type="radio" name="select your superhero" value="hulk">hulk <br>
+
+                    <label for="select your favourite video game">videogames</label>
+                    <input type="checkbox" name="select your favourite video game" value="Fifa" checked>Fifa
+                    <input type="checkbox" name="select your favourite video game" value="NHL">NHL
+                    <input type="checkbox" name="select your favourite video game" value="Resident Evil">Resident Evil
+                    <input type="checkbox" name="select your favourite video game" value="Uncharted"Uncharted checked>
+                </fieldset>
+
+                <input type="hidden" name="userid" id="2300">
+                <input type="submit" value="Create User">
+            </form>
+        </main>
+    </body>
+</html>
